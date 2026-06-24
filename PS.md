@@ -14,3 +14,19 @@ Run the Java version:
 javac Pattern.java
 java Pattern set13.txt set27.txt
 ```
+
+## Calculator Runner
+
+Use the shell runner to execute either the Java or Python calculator based on the program file name.
+
+Run the Java calculator:
+
+```bash
+sh run_calculator.sh Calculator.java 13 27
+```
+
+Run the Python calculator:
+
+```bash
+sh run_calculator.sh calculator.py 13 27
+```
